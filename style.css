@@ -50,7 +50,6 @@ ul {
   padding: 0px;
 }
 
-
 .plus-image {
   vertical-align: middle;
   margin-left: 5px;
@@ -173,7 +172,6 @@ input[type="text"] {
   color: blue;
 }
 
-
 /* Responsive Design */
 
 /* Large screens */
@@ -189,7 +187,6 @@ input[type="text"] {
   .logo-search input[type="text"]::placeholder {
     font-size: 12px;
     color: #888;
-    
   }
 
   .login-more-cart {
@@ -211,15 +208,12 @@ input[type="text"] {
   .trends div:hover {
     color: blue;
   }
-
-  
 }
 
 /* Medium screens */
 @media only screen and (max-width: 992px) {
   .logo-search {
     margin-left: 20px;
-
   }
 
   .logo-search form {
@@ -233,14 +227,12 @@ input[type="text"] {
   .logo-search input[type="text"]::placeholder {
     font-size: 11px;
     justify-content: space-between;
-    
   }
 
   .login-more-cart {
     width: 240px;
   }
 
-  
   .trends {
     flex-direction: row;
     flex-wrap: wrap;
@@ -256,8 +248,6 @@ input[type="text"] {
   .trends div:hover {
     color: blue;
   }
-
-  
 }
 
 /* Small screens */
@@ -312,31 +302,25 @@ input[type="text"] {
     margin-bottom: 15px;
     padding: 12px 8px;
     box-sizing: border-box;
-    }
+  }
 
   .trends div:hover {
     color: blue;
   }
-
-  
 }
-
-
 
 /* Extra small screens */
 @media only screen and (max-width: 480px) {
   nav {
     height: auto;
     padding: 10px;
-    }
+  }
 
- 
   nav ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: auto;
-    
   }
 
   .logo-search {
@@ -346,20 +330,16 @@ input[type="text"] {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-  
   }
 
   .logo-search input[type="text"] {
     width: 160px;
     margin-top: 5px;
-    
   }
 
   .logo-search input[type="text"]::placeholder {
     font-size: 9px;
-    
   }
-
 
   .login-more-cart {
     width: 100%;
@@ -368,7 +348,6 @@ input[type="text"] {
     flex-direction: column;
     gap: 10px;
     align-items: center;
-    
   }
 
   .login,
@@ -378,7 +357,6 @@ input[type="text"] {
     padding: 7px 21px;
   }
 
- 
   .trends {
     flex-direction: column;
     padding: 10px 0;
