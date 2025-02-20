@@ -10,8 +10,8 @@
 </head>
 
 <body>
-  <header>
-    <nav>
+  <header role="banner">
+    <nav role="navigation">
       <ul>
         <div class="logo-search">
           <li class="logo">
@@ -20,7 +20,7 @@
               <small>Explore
                 <span style="color: #ffe500; display: inline-flex; align-items: center;">
                   Plus
-                  <img src="./Images1/plusstar.png" alt="pluslogo" class="plus-image" />
+                  <img src="./Images1/plusstar.png" alt="Flipkart Plus logo" class="plus-image" />
                 </span>
               </small>
             </div>
@@ -28,10 +28,10 @@
 
           <!-- Search Bar -->
           <li class="search-bar">
-            <form action="/">
+            <form action="/" aria-label="Search for products, brands, and more">
               <input type="text" name="search" autocomplete="on" title="Search for products, brands and more"
                 placeholder="Search for products, brands and more" />
-              <button type="submit">
+              <button type="submit" aria-label="Search products, brands, and more">
                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search"
                   class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512" width="20px">
@@ -44,7 +44,8 @@
           </li>
         </div>
 
-        <div class="login-more-cart">
+        <div class="login-more-cart" aria-label="User account and shopping options">
+
           <!-- Login Section -->
           <li class="login">Login</li>
 
@@ -58,179 +59,185 @@
     </nav>
   </header>
 
-  <section class="trends">
+
+  <section class="trends" role="region" aria-labelledby="trending-categories">
+
     <div>
-      <img src="./Images1/top-offer.png" alt="top offer" class="img-box" />
+      <img src="./Images1/top-offer.png" alt="Top Offers available at Flipkart" class="img-box" />
       <p>Top Offers</p>
     </div>
     <div>
-      <img src="./Images1/grocery.png" alt="grocery " class="img-box" />
+      <img src="./Images1/grocery.png" alt="Grocery products available" class="img-box" />
       <p>Grocery</p>
     </div>
     <div>
-      <img src="./Images1/mobiles.png" alt="mobiles" class="img-box" />
+      <img src="./Images1/mobiles.png" alt="Mobile products" class="img-box" />
       <p>Mobile</p>
     </div>
     <div>
-      <img src="./Images1/fashion.png" alt="fashion" class="img-box" />
+      <img src="./Images1/fashion.png" alt="Fashion products" class="img-box" />
       <p>Fashion</p>
     </div>
     <div>
-      <img src="./Images1/electronics.png" alt="electronics" class="img-box" />
+      <img src="./Images1/electronics.png" alt="Electronics products" class="img-box" />="img-box" />
       <p>Electronics</p>
     </div>
     <div>
-      <img src="./Images1/home.jpg" alt="home" class="img-box" />
+      <img src="./Images1/home.jpg" alt="Home products" class="img-box" />
       <p>Home</p>
     </div>
     <div>
-      <img src="./Images1/appliances.png" alt="appliances" class="img-box" />
+      <img src="./Images1/appliances.png" alt="Appliances" class="img-box" />
       <p>Appliances</p>
     </div>
     <div>
-      <img src="./Images1/travel.png" alt="travel" class="img-box" />
+      <img src="./images/travel.png" alt="Travel accessories" class="img-box" />
       <p>Travel</p>
     </div>
     <div>
-      <img src="./Images1/toys.png" alt="toys" class="img-box" />
+      <img src="./Images1/toys.png" alt="Beauty, Toys and more" class="img-box" />
       <p>Beauty , Toys & More</p>
     </div>
   </section>
-
-  <section class="best-value-section" style="border: none; ">
-    <div class="container">
-      <div class="row">
-        <!-- Main Content (Col-8) -->
-        <div class="col-8">
-          <!-- First row: Title Section -->
-          <div class="title-section">
-            <h2>Trending Offers</h2>
-
-            <!-- View All Button -->
-            <a href="#" class="view-all-button">View All</a>
-          </div>
-
-          <!-- Second row: 7 columns (products) -->
-          <div class="seven-columns">
-            <div class="product">
-              <img src="./Images1/shirt.jpeg" alt="trending shirt" />
-              <h3>Men's Shirt and Trouser</h3>
-              <p>Special Offers</p>
-              <p>Hurry, Don't Miss Out</p>
-            </div>
-            <div class="product">
-              <img src="./Images1/trendings/s2.jpeg" alt="trending shirt" />
-              <h3>Wired Earphones</h3>
-              <p>From &#8377; 390</p>
-              <p>Mi, boat , Realme & more</p>
-            </div>
-            <div class="product">
-              <img src="./Images1/trendings/s1.jpeg" alt="trending shirt" />
-              <h3>Men's T-shirt</h3>
-              <p>Top Offers</p>
-              <p>Shop Now!</p>
-            </div>
-            <div class="product">
-              <img src="./Images1/trendings/mouse.jpeg" alt="trending shirt" />
-              <h3>Mouse</h3>
-              <p>From &#8377;179</p>
-              <p>Logitech ,Hp ,Dell & more</p>
-            </div>
-            <div class="product">
-              <img src="./Images1/trendings/router.jpeg" alt="trending shirt" />
-              <h3>Routers</h3>
-              <p>From &#8377; 799</p>
-              <p>MI , Netgear, Tp-link</p>
-            </div>
-            <div class="product">
-              <img src="./Images1/trendings/watch.jpeg" alt="trending shirt" />
-              <h3>Wrist Watch</h3>
-              <p>Top Picks</p>
-              <p>Explore Now!</p>
-            </div>
-            <div class="product">
-              <img src="./Images1/trendings/earphone.jpeg" alt="trending shirt" />
-              <h3>Wireless Earphones</h3>
-              <p>From &#8377; 899</p>
-              <p>From Work from Home</p>
-            </div>
-          </div>
-
-          <!-- Right Arrow Button -->
-          <div class="slider-arrow-right">
-            <img src="./Images1/Slider2.png" alt="" style="height: 125px; border-radius: 5px; ">
-          </div>
-        </div>
-
-        <!-- Sidebar (Col-4) -->
-        <div class="col-4">
-          <div class="sidebar">
-            <img src="./Images1/side-image01 (1).jpeg" alt="side offer" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="last">
-    <section class="best-value-section" style="border: none; ">
+  <main role="main" aria-labelledby="main-content">
+    <section class="best-value-section" style="border: none; " aria-labelledby="trending-offers">
       <div class="container">
         <div class="row">
           <!-- Main Content (Col-8) -->
-          <div class="col-12">
+          <div class="col-8">
             <!-- First row: Title Section -->
-            <div class="title-section">
-              <h2>Trending Offers</h2>
+            <div class="title-section" aria-label="Trending offers section">
+
+              <h2 id="trending-offers">Trending Offers</h2>
 
               <!-- View All Button -->
-              <a href="#" class="view-all-button">View All</a>
+              <a href="#" class="view-all-button" aria-label="View all trending offers">View All</a>
             </div>
 
             <!-- Second row: 7 columns (products) -->
-            <div class="Twelev-columns ">
-              <div class="product1">
-                <img src="./Images1/shirt.jpeg" alt="trending shirt" />
+            <div class="seven-columns">
+              <div class="product">
+                <img src="./Images1/shirt.jpeg" alt="Men's Shirt and Trouser, Special Offers" />
                 <h3>Men's Shirt and Trouser</h3>
                 <p>Special Offers</p>
                 <p>Hurry, Don't Miss Out</p>
               </div>
-              <div class="product1">
-                <img src="./Images1/s2.jpeg" alt="trending shirt" />
+              <div class="product">
+                <img src="./Images1/s2.jpeg" alt="Wired Earphones from &#8377; 390" />
                 <h3>Wired Earphones</h3>
                 <p>From &#8377; 390</p>
                 <p>Mi, boat , Realme & more</p>
               </div>
-              <div class="product1">
-                <img src="./Images1/s1.jpeg" alt="trending shirt" />
+              <div class="product">
+                <img src="./Images1/s1.jpeg" alt="Men's T-shirt, Top Offers" />
                 <h3>Men's T-shirt</h3>
                 <p>Top Offers</p>
                 <p>Shop Now!</p>
               </div>
-              <div class="product1">
-                <img src="./Images1/mouse.jpeg" alt="trending shirt" />
+              <div class="product">
+                <img src="./Images1/mouse.jpeg" alt="Mouse from &#8377;179" />
                 <h3>Mouse</h3>
                 <p>From &#8377;179</p>
                 <p>Logitech ,Hp ,Dell & more</p>
               </div>
-              <div class="product1">
-                <img src="./Images1/router.jpeg" alt="trending shirt" />
+              <div class="product">
+                <img src="./Images1/router.jpeg" alt="Routers from &#8377; 799" />
                 <h3>Routers</h3>
                 <p>From &#8377; 799</p>
                 <p>MI , Netgear, Tp-link</p>
               </div>
-              <div class="product1">
-                <img src="./Images1/watch.jpeg" alt="trending shirt" />
+              <div class="product">
+                <img src="./Images1/trendings/watch.jpeg" alt="Wrist Watch, Top Picks" />
                 <h3>Wrist Watch</h3>
                 <p>Top Picks</p>
                 <p>Explore Now!</p>
               </div>
+              <div class="product">
+                <img src="./Images1/trendings/earphone.jpeg" alt="Wireless Earphones from &#8377; 899" />
+                <h3>Wireless Earphones</h3>
+                <h3>Wireless Earphones</h3>
+                <p>From &#8377; 899</p>
+                <p>From Work from Home</p>
+              </div>
+            </div>
 
+            <!-- Right Arrow Button -->
+            <div class="slider-arrow-right">
+              <img src="./Images1/Slider2.png" alt="Slider showing more offers"
+                style="height: 125px; border-radius: 5px;" />
+            </div>
+          </div>
+
+          <!-- Sidebar (Col-4) -->
+          <div class="col-4">
+            <div class="sidebar">
+              <img src="./Images1/side-image01 (1).jpeg" alt="Side Offer Advertisement" />
             </div>
           </div>
         </div>
+      </div>
     </section>
-  </div>
+    <div class="last">
+      <section class="best-value-section" style="border: none; " aria-labelledby="trending-offers">
+        <div class="container">
+          <div class="row">
+            <!-- Main Content (Col-8) -->
+            <div class="col-12">
+              <!-- First row: Title Section -->
+              <div class="title-section" aria-label="Trending offers section">
+                <h2 id="trending-offers">Trending Offers</h2>
 
+                <!-- View All Button -->
+                <a href="#" class="view-all-button" aria-label="View all trending offers">View All</a>
+              </div>
 
+              <!-- Second row: 7 columns (products) -->
+              <div class="Twelev-columns ">
+                <div class="product1">
+                  <img src="./Images1/trendings/shirt.jpeg" alt="Men's Shirt and Trouser, Special Offers" />
+                  <h3>Men's Shirt and Trouser</h3>
+                  <p>Special Offers</p>
+                  <p>Hurry, Don't Miss Out</p>
+                </div>
+                <div class="product1">
+                  <img src="./Images1/trendings/s2.jpeg" alt="Wired Earphones from &#8377; 390" />
+                  <h3>Wired Earphones</h3>
+                  <h3>Wired Earphones</h3>
+                  <p>From &#8377; 390</p>
+                  <p>Mi, boat , Realme & more</p>
+                </div>
+                <div class="product1">
+                  <img src="./Images1/trendings/s1.jpeg" alt="Men's T-shirt, Top Offers" />
+                  <h3>Men's T-shirt</h3>
+                  <p>Top Offers</p>
+                  <p>Shop Now!</p>
+                </div>
+                <div class="product1">
+                  <img src="./Images1/trendings/mouse.jpeg" alt="Mouse from &#8377;179" />
+                  <h3>Mouse</h3>
+                  <p>From &#8377;179</p>
+                  <p>Logitech ,Hp ,Dell & more</p>
+                </div>
+                <div class="product1">
+                  <img src="./Images1/trendings/router.jpeg" alt="Routers from &#8377; 799" />
+                  <h3>Routers</h3>
+                  <p>From &#8377; 799</p>
+                  <p>MI , Netgear, Tp-link</p>
+                </div>
+                <div class="product1">
+                  <img src="./Images1/trendings/watch.jpeg" alt="Wrist Watch, Top Picks" />
+                  <h3>Wrist Watch</h3>
+                  <p>Top Picks</p>
+                  <p>Explore Now!</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+      </section>
+    </div>
+
+  </main>
 
 </body>
 

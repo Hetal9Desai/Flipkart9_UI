@@ -219,6 +219,7 @@ input[type="text"] {
   width: 100%;
   box-shadow: 2px 5px 6px #00000061;
   height: 331px;
+  overflow: hidden;
 }
 
 .row {
@@ -683,7 +684,7 @@ input[type="text"] {
 
     .logo-search input[type="text"] {
       width: 160px;
-      margin-top: 5px;
+      margin-top: 0px;
     }
 
     .logo-search input[type="text"]::placeholder {
@@ -762,7 +763,6 @@ input[type="text"] {
     .Twelev-columns {
       flex-direction: column;
       margin: 10px 3px;
-
     }
 
     .product {
